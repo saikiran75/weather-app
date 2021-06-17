@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title>{{a1}} Weather Information</title>
+        <style>
+            .details{
+                left      : 50%;
+                top       : 50%;
+                position  : absolute;
+                transform : translate(-50%, -50%);
+            }
+
+            .s1{
+                color:yellow;
+            }
+
+            .s2{
+                color:cyan;
+            }
+
+            .heading{
+                color: white;
+            }
+        </style>
+    </head>
+
+    <body style="background-color: black;">  
+        <div class="details">
+            <h1><span class="heading">{{a1}} Weather Information </h1>
+            <h2><span class="s1">Condition: <span class="s2">{{b1}}</h2>
+            <h2><span class="s1">Longitude: <span class="s2">{{l11}}</h2>
+            <h2><span class="s1">Latitude: <span class="s2">{{l21}}</h2>
+            <h2><span class="s1">Temperature: <span class="s2">{{t1}} <sup>o</sup>C</h2>
+            <h2><span class="s1">Humidity: <span class="s2">{{h1}}%</h2>
+            <h2><span class="s1">Pressure: <span class="s2">{{p1}}</h2>
+            <h2><span class="s1">Wind Speed: <span class="s2">{{w1}} Km/h</h2>
+        </div>
+    </body>
+</html>
